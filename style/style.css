@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eceaea;
+}
+
+.container {
+  margin: 50px auto;
+  width: 650px;
+  border: 1px solid #0000008a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #000000;
+  background: linear-gradient(to right, #008cff, #70bfff);
+}
+
+.cal {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  color: #5a5a5a;
+}
+
+.container input {
+  width: 100%;
+  padding: 16px;
+  display: block;
+  outline: none;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 10px;
+}
+
+.submit {
+  width: 200px;
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #525050;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.twodiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.answer {
+  width: 200px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #525050;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+}
